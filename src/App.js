@@ -1,4 +1,5 @@
 import React from 'react'
+import Result from './Result'
 
 export const App = () => {
   return (
@@ -14,12 +15,17 @@ export const App = () => {
               <select name="" id="">
                 <option value="">English</option>
                 <option value="">English</option>
-
+                <option value="">English</option>
               </select>
             </div>
+
+            <i class="fa-solid fa-volume-high"></i>
           </div>
+
         </div>
       </form>
+
+      <Result/>
     </div>
   )
 }
