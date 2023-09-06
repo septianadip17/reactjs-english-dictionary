@@ -20,7 +20,7 @@ export const App = () => {
     .then(result => {
       console.log(result)
       setMeanings(result[0].meanings)
-      setPhonetics([0].phonetics)
+      setPhonetics(result[0].phonetics)
       setWord(result[0].word)
       setError("")
     })
